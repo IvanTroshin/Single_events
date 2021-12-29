@@ -339,6 +339,8 @@ release/moc_mainwindow.cpp: ../Single_events/mainwindow.h \
 		C:/Qt/5.15.1/mingw81_32/include/QtGui/qtouchdevice.h \
 		C:/Qt/5.15.1/mingw81_32/include/QtWidgets/qtabwidget.h \
 		C:/Qt/5.15.1/mingw81_32/include/QtGui/qicon.h \
+		../Single_events/main_processing.h \
+		C:/Qt/5.15.1/mingw81_32/include/QtCore/QObject \
 		release/moc_predefs.h \
 		C:/Qt/5.15.1/mingw81_32/bin/moc.exe
 	C:\Qt\5.15.1\mingw81_32\bin\moc.exe $(DEFINES) --include F:/Pro/Qt/2021/Single_events/build-Single_events-Desktop_Qt_5_15_1_MinGW_32_bit-Debug/release/moc_predefs.h -IC:/Qt/5.15.1/mingw81_32/mkspecs/win32-g++ -IF:/Pro/Qt/2021/Single_events/Single_events -IC:/Qt/5.15.1/mingw81_32/include -IC:/Qt/5.15.1/mingw81_32/include/QtPrintSupport -IC:/Qt/5.15.1/mingw81_32/include/QtWidgets -IC:/Qt/5.15.1/mingw81_32/include/QtGui -IC:/Qt/5.15.1/mingw81_32/include/QtANGLE -IC:/Qt/5.15.1/mingw81_32/include/QtCore -I. -IC:/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++ -IC:/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32 -IC:/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward -IC:/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include -IC:/Qt/Tools/mingw810_32/lib/gcc/i686-w64-mingw32/8.1.0/include-fixed -IC:/Qt/Tools/mingw810_32/i686-w64-mingw32/include ..\Single_events\mainwindow.h -o release\moc_mainwindow.cpp
@@ -1509,6 +1511,8 @@ release/main.o: ../Single_events/main.cpp ../Single_events/mainwindow.h \
 		C:/Qt/5.15.1/mingw81_32/include/QtGui/qtouchdevice.h \
 		C:/Qt/5.15.1/mingw81_32/include/QtWidgets/qtabwidget.h \
 		C:/Qt/5.15.1/mingw81_32/include/QtGui/qicon.h \
+		../Single_events/main_processing.h \
+		C:/Qt/5.15.1/mingw81_32/include/QtCore/QObject \
 		C:/Qt/5.15.1/mingw81_32/include/QtWidgets/QApplication \
 		C:/Qt/5.15.1/mingw81_32/include/QtWidgets/qapplication.h \
 		C:/Qt/5.15.1/mingw81_32/include/QtCore/qcoreapplication.h \
@@ -1735,6 +1739,8 @@ release/mainwindow.o: ../Single_events/mainwindow.cpp ../Single_events/mainwindo
 		C:/Qt/5.15.1/mingw81_32/include/QtGui/qtouchdevice.h \
 		C:/Qt/5.15.1/mingw81_32/include/QtWidgets/qtabwidget.h \
 		C:/Qt/5.15.1/mingw81_32/include/QtGui/qicon.h \
+		../Single_events/main_processing.h \
+		C:/Qt/5.15.1/mingw81_32/include/QtCore/QObject \
 		ui_mainwindow.h \
 		C:/Qt/5.15.1/mingw81_32/include/QtCore/QVariant \
 		C:/Qt/5.15.1/mingw81_32/include/QtWidgets/QApplication \
@@ -1772,7 +1778,6 @@ release/mainwindow.o: ../Single_events/mainwindow.cpp ../Single_events/mainwindo
 		C:/Qt/5.15.1/mingw81_32/include/QtWidgets/QVBoxLayout \
 		C:/Qt/5.15.1/mingw81_32/include/QtWidgets/QWidget \
 		../Single_events/qcustomplot.h \
-		C:/Qt/5.15.1/mingw81_32/include/QtCore/QObject \
 		C:/Qt/5.15.1/mingw81_32/include/QtCore/QPointer \
 		C:/Qt/5.15.1/mingw81_32/include/QtCore/qpointer.h \
 		C:/Qt/5.15.1/mingw81_32/include/QtCore/QSharedPointer \

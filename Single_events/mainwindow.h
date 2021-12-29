@@ -16,8 +16,18 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+    void text_to_edit(QString text);    // Запись в текст эдитор
+    void text_to_edit_delete();         // Удаление элемента
+
 signals:
     void signalrunMP(QStringList files);
+
+private slots:
+    void on_Button_Open_clicked();
+
+    void on_Button_Next_clicked();
+
+    void on_Button_Before_clicked();
 
 private:
     Ui::MainWindow *ui;
